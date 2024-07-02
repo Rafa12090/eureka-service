@@ -1,5 +1,5 @@
 spring:
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:config-service-2024.azurewebsites.net:8888
   application:
     name: eureka-service
